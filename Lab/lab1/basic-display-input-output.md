@@ -40,15 +40,15 @@ int main() {
 ## TEST CASE
 ### Input
 ```bash
-Enter your name: Thongchai
-Enter you age: 56
+Enter your name: khwanchanok
+Enter you age: 18
 ```
 ![image](https://github.com/user-attachments/assets/fbd5207e-a333-4fb9-8ef8-f66a75e898b3)
 
 ### Output
 ```bash
 - - - - - -
-Hello Thongchai
-Age = 56
+Hello khwanchanok
+Age = 18
 ```
 ![image](https://github.com/user-attachments/assets/7ea8120a-1aa9-487b-839b-63ff62f878a9)
