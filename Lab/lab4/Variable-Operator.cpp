@@ -10,8 +10,10 @@ int main()
     scanf("%s", employeeID);
     printf("Input the working hrs: ");
     scanf("%d", &workinghrs);
-    printf("Salary amount/hr:");
+    printf("Salary amount/hr: ");
     scanf("%f", &Salary);
+    printf( "Expected Output:\n");
     printf("Employee ID: %s\n", employeeID);
     printf("Salary = U$ %.2f\n", Salary * workinghrs);
+    return 0;
 }
