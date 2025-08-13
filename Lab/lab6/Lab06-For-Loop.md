@@ -9,14 +9,15 @@
 #include <stdio.h>
 
 int main() {
-    int N = 0;
-
+    int N = -1;  
+    
     printf("Enter value: ");
-    if (scanf("%d", &N) != 1) {
-        printf("sorry\n");
-        return 1; // ถ้าผู้ใช้ป้อนไม่ใช่เลข
-    }
+    scanf("%d", &N);
 
+    if (N < 0){
+        printf("Please enter a number \n");
+        return 0;
+    }
     printf("Series: %d\n", N);
 
     if (N % 2 == 1) {
@@ -31,6 +32,8 @@ int main() {
 
     return 0;
 }
+
+
 
 ```
 
