@@ -54,7 +54,7 @@ int main() {
     }
     else if (pos == 3) {
         salary = 50000 ;
-    }
+    } //end if
     
     if ( year < 1 ) {
         percentage = 0 ;
@@ -67,7 +67,7 @@ int main() {
     }
     else if (year > 5) {
         percentage = 20 ;
-    }
+    } //end if
 
     Bonus = salary * percentage  /100 ;
 
