@@ -27,8 +27,7 @@
 - เงินเดือนสุทธิ (เงินเดือนพื้นฐาน + โบนัสตามอายุงาน + โบนัสพิเศษ)
 
 ## FIX CODE
-***c++
-#include <stdio.h>
+```c++#include <stdio.h>
 
 int main() {
     int pos, year, projects;
@@ -129,4 +128,3 @@ Net Salary: 62500 THB
 | ประเมินค่า | โปรแกรมเสร็จสมบูรณ์ระยะเวลาที่กำหนด | 1 pts |
 | สร้างสรรค์ | แก้ไขสถานการณ์ของโจทย์ | 1 pts |
 ||<p style='text-align: right !important;'>**รวม**</p>|**6 pts**|
-
