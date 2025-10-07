@@ -4,6 +4,7 @@
 แสดงได้ดังโครงสร้างข้อมูลต่อไปนี้
 
 ## FIX CODE
+```c++
 #include <stdio.h>
 
 // ประกาศโครงสร้างนักเรียน
@@ -114,16 +115,6 @@ int main()
     return 0;
 }
 
-
-struct Student {
-    char Name[20] ;
-    char ID[5] ;
-    float ScoreSub1 ;
-    float ScoreSub2 ;
-    float ScoreSub3 ;
-    float ScoreSub4 ;
-    float ScoreSub5 ;
-} typedef S ;
 ```
 
 ## TEST CASE
@@ -212,4 +203,3 @@ Average Scores: 75.4
 | ประเมินค่า | โปรแกรมเสร็จสมบูรณ์ระยะเวลาที่กำหนด | 1 pts |
 | สร้างสรรค์ | แก้ไขสถานการณ์ของโจทย์ | 1 pts |
 ||<p style='text-align: right !important;'>**รวม**</p>|**6 pts**|
-
